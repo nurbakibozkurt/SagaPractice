@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Rebus.RabbitMq" Version="9.4.0" />
+    <PackageReference Include="Rebus.ServiceProvider" Version="10.3.0" />
+    <PackageReference Include="Rebus.SqlServer" Version="8.1.2" />
+  </ItemGroup>
+
+</Project>
